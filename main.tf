@@ -90,3 +90,12 @@ resource "aws_dynamodb_table" "dynamodb-homologacao" {
     type = "S"
   }
 }
+
+resource "aws_s3_bucket" "homologacao" {
+  bucket = "davigoncalveslabs-homologacao"
+  acl    = "private"
+
+  tags = {
+      Name = "davigoncalveslabs-homologacao"
+  }
+}

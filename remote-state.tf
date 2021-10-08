@@ -1,10 +1,10 @@
-terraform {
-  backend "remote" {
-    hostname = "app.terraform.io"
-    organization = "davigoncalveslabs"
+# terraform {
+#   backend "remote" {
+#     hostname = "app.terraform.io"
+#     organization = "davigoncalveslabs"
 
-    workspaces {
-      name = "aws-davigoncalveslabs"
-    }
-  }
-}
+#     workspaces {
+#       name = "aws-davigoncalveslabs"
+#     }
+#   }
+# }
